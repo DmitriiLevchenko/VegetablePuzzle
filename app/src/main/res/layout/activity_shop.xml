@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitys.Shop">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="94dp">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/horizontalscroll1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+
+                android:id="@+id/bacground1"
+                android:layout_width="131dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="32dp"
+                android:src="@drawable/background_1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/money6"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/money"
+                app:layout_constraintStart_toEndOf="@+id/moneytextBox7"
+                app:layout_constraintTop_toBottomOf="@+id/bacground3">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/moneytextBox6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="176dp"
+                android:text="100"
+                android:textSize="32dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bacground2"></TextView>
+
+            <TextView
+                android:id="@+id/moneytextBox4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="100"
+                android:textSize="32dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bacground1"></TextView>
+
+            <TextView
+                android:id="@+id/moneytextBox7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="460dp"
+                android:text="100"
+                android:textSize="32dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bacground3"></TextView>
+
+            <TextView
+                android:id="@+id/moneytextBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="312dp"
+                android:text="100"
+                android:textSize="32dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bacground4"></TextView>
+
+            <ImageView
+                android:id="@+id/bacground2"
+                android:layout_width="131dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="32dp"
+                android:src="@drawable/background_2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/money3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/money"
+                app:layout_constraintStart_toEndOf="@+id/moneytextBox4"
+                app:layout_constraintTop_toBottomOf="@+id/bacground1">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/money4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/money"
+                app:layout_constraintStart_toEndOf="@+id/moneytextBox6"
+                app:layout_constraintTop_toBottomOf="@+id/bacground2">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/money2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/money"
+                app:layout_constraintStart_toEndOf="@+id/moneytextBox2"
+                app:layout_constraintTop_toBottomOf="@+id/bacground4">
+
+            </ImageView>
+
+
+            <ImageView
+                android:id="@+id/bacground3"
+                android:layout_width="131dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="428dp"
+                android:layout_marginTop="32dp"
+                android:src="@drawable/background_3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/bacground4"
+                android:layout_width="131dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="284dp"
+                android:layout_marginTop="32dp"
+                android:src="@drawable/background_4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/moneytextlineBox6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="164dp"
+                android:text="50"
+                android:textSize="32dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/line2"></TextView>
+
+            <TextView
+                android:id="@+id/moneytextlineBox4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:text="50"
+                android:textSize="32dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/line1"></TextView>
+
+            <TextView
+                android:id="@+id/moneytextlineBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="312dp"
+                android:text="50"
+                android:textSize="32dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/line3"></TextView>
+
+            <TextView
+                android:id="@+id/moneytextlineBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="460dp"
+                android:text="50"
+                android:textSize="32dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/line4"></TextView>
+
+            <ImageView
+                android:id="@+id/moneyline3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/money"
+                app:layout_constraintStart_toEndOf="@+id/moneytextlineBox4"
+                app:layout_constraintTop_toBottomOf="@+id/line1">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/moneyline4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/money"
+                app:layout_constraintStart_toEndOf="@+id/moneytextlineBox3"
+                app:layout_constraintTop_toTopOf="@+id/moneytextlineBox3">
+
+            </ImageView>
+
+
+            <ImageView
+                android:id="@+id/moneyline2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/money"
+                app:layout_constraintStart_toEndOf="@+id/moneytextlineBox6"
+                app:layout_constraintTop_toBottomOf="@+id/line2">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/line3"
+                android:layout_width="131dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="204dp"
+                android:src="@drawable/circling_3"
+                app:layout_constraintStart_toEndOf="@+id/line2"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/line4"
+                android:layout_width="131dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="204dp"
+                android:src="@drawable/circling_4"
+                app:layout_constraintStart_toEndOf="@+id/line3"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/moneyline1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/money"
+                app:layout_constraintStart_toEndOf="@+id/moneytextlineBox1"
+                app:layout_constraintTop_toBottomOf="@+id/line3">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/line1"
+                android:layout_width="131dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="204dp"
+                android:src="@drawable/circling_1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/line2"
+                android:layout_width="131dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="204dp"
+                android:src="@drawable/circling_2"
+                app:layout_constraintStart_toEndOf="@+id/line1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/buytip"
+                android:layout_width="115dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="372dp"
+                android:background="@drawable/button_1"
+                android:text="Buy Tip"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/Backgrounds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Backgrounds"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/Borders"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="172dp"
+                android:text="Borders"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/Tipprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="368dp"
+                android:text="50"
+                android:textSize="32dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="176dp"
+                android:layout_marginTop="372dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/money" />
+
+            <TextView
+                android:id="@+id/coinscount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/imageView2"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="38dp"
+                android:layout_height="41dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/money" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
